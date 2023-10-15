@@ -33,6 +33,11 @@ public class Person {
 
         this.address = address;
     }
+    public String toString(){
+        return "Person{"+"name='" + name + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
 
 

@@ -4,26 +4,18 @@ import person.Student;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Victor", "Alba Iulia");
-        Staff staff = new Staff("Dana", "Teodorovici", "DanteAlighere", 21.50);
-        Student student = new Student("Daniel", "Docuceaev", "Informatica", 2023, 1000.50);
+       Person person = new Person("Ana", "AlbaIulia");
+        System.out.println(person);
 
-        System.out.println(person.getName());
-        System.out.println(person.getAddress());
-        System.out.println("_________________________________");
+        System.out.println("                             ");
 
-        System.out.println(staff.getName());
-        System.out.println(staff.getAddress());
-        System.out.println(staff.getSchool());
-        System.out.println(staff.getPay());
-        System.out.println("_________________________________");
+        Student student = new Student("Ion", "Ismail", "Matematica", 2023, 10000.5);
+        System.out.println(student);
 
-        System.out.println(student.getName());
-        System.out.println(student.getAddress());
-        System.out.println(student.getProgram());
-        System.out.println(student.getYear());
-        System.out.println(student.getFee());
+        System.out.println("                             ");
 
+        Staff staff = new Staff("Dan", "Teodorovici", "DanteAligheri", 150.5);
+                System.out.println(staff);
     }
 }
 

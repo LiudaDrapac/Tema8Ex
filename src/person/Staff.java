@@ -26,6 +26,14 @@ public class Staff extends Person {
 
     public void setPay(double pay) {
         this.pay = pay;
-    }}
+    }
+
+    public String toString() {
+        return "Staff{"+"school='" + school + '\'' +
+                ", pay='" + pay + '\'' +
+                '}';
+
+    }
+}
 
 
